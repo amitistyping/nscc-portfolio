@@ -7,7 +7,7 @@ import netflixproject from '../public/netflixproject.png';
 const PortfolioProjects = () => {
 	return (
 		<section className='py-10'>
-			<div>
+			<div id='projectsContainer'>
 				<h2 className='text-6xl text-center  py-1 dark:text-white text-teal-600 font-semibold dark:text-teal-400'>
 					Projects 🧑‍💻
 				</h2>

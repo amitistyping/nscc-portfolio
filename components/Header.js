@@ -18,13 +18,13 @@ const Header = () => {
 				</p>
 				<div className='mt-5'>
 					<a
-						className='bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-5 py-3 border-none rounded-md mr-2'
-						href='#'
+						className='text-lg bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-3 border-none rounded-md mr-3'
+						href='#contactContainer'
 					>
 						Contact📮
 					</a>
 					<a
-						className='bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-5 py-3 border-none rounded-md'
+						className='text-lg bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-3 border-none rounded-md'
 						href='#'
 					>
 						Resume <AiOutlineDownload className='inline' />
