@@ -11,8 +11,8 @@ const Header = () => {
 					Hi, I am Amit<span className='wave'>👋</span>
 				</h2>
 				<p className='text-lg py-2 leading-8 text-gray-900 dark:text-gray-300'>
-					I'm a junior web developer with almost 2 years of experience developing web apps for the
-					banking and SaaS industries. Right now, I'm super excited to be pursuing the Full Stack
+					I&apos;m a junior web developer with almost 2 years of experience developing web apps for the
+					banking and SaaS industries. Right now, I&apos;m super excited to be pursuing the Full Stack
 					Application Development program at NSCC IT Campus in Halifax to keep growing my skills. So
 					take a look around, and if you have any questions, feel free to drop me a line!
 				</p>
@@ -32,7 +32,7 @@ const Header = () => {
 				</div>
 			</div>
 			<div id='imageContainer' className='w-2/6'>
-				<Image src={softwareDev} />
+				<Image src={softwareDev} alt="developer clip art" />
 			</div>
 		</div>
 	);

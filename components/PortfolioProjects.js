@@ -12,7 +12,7 @@ const PortfolioProjects = () => {
 					Projects 🧑‍💻
 				</h2>
 				<p className='text-lg py-2 leading-8 text-gray-800 dark:text-gray-200'>
-					In my time as a web developer, I've had the opportunity to work on a diverse range of web
+					In my time as a web developer, I&apos;ve had the opportunity to work on a diverse range of web
 					applications which includes developing dynamic
 					<span className='text-teal-500'> banking</span> applications, efficient
 					<span className='text-teal-500'> SaaS-based</span> web apps, engaging
