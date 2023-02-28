@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaCheck } from 'react-icons/fa';
-import Contact from './Contact';
 
 const Skills = () => {
 	return (
@@ -85,7 +84,7 @@ const Skills = () => {
 						</p>
 					</div>
 				</div>
-				<Contact />
+				
 			</div>
 		</section>
 	);

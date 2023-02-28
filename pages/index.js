@@ -11,6 +11,7 @@ import PortfolioProjects from '../components/PortfolioProjects';
 import Nav from '../components/Nav';
 import Skills from '../components/Skills';
 import Header from '../components/Header';
+import Contact from '../components/Contact';
 
 export default function Home() {
 	const [darkMode, setDarkMode] = useState(true);
@@ -29,6 +30,7 @@ export default function Home() {
 				</section>
 				<PortfolioProjects />
 				<Skills />
+				<Contact />
 			</main>
 		</div>
 	);
