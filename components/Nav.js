@@ -25,7 +25,8 @@ const Nav = ({ handleDarkModeChange, darkMode }) => {
 				<li>
 					<a
 						className='text-lg bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-3 border-none rounded-md mr-8'
-						href='#'
+						href='https://amitistyping.github.io/resumepdf/amitresumeletter.pdf'
+                        target="_blank" rel="noopener noreferrer"
 					>
 						Resume <AiOutlineDownload className='inline' />
 					</a>
