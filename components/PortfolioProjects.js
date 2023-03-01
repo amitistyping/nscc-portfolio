@@ -24,13 +24,13 @@ const PortfolioProjects = () => {
 			<div className='flex flex-col gap-8 py-8 lg:flex-row lg:flex-wrap'>
 				<div className='basis-1/3 flex-1'>
 					<div>
-						<h2 className='text-lg text-center text-teal-600 font-bold dark:text-teal-400 py-1 mb-2'>
+						<a href='https://www.edgeverve.com/finacle/solutions/finacle-core-banking-solution/' target="_blank" rel="noopener noreferrer" className='text-lg text-center text-teal-600 font-semibold dark:text-teal-400 py-1 mb-2 block underline'>
 							Finacle Payment Suite
-						</h2>
+						</a>
 						<Image
 							className='rounded-lg'
 							width={'100%'}
-							height={'64%'}
+							height={'63%'}
 							layout='responsive'
 							alt='finacle payment engine screenshot'
 							src={fpeproect}
@@ -38,39 +38,39 @@ const PortfolioProjects = () => {
 					</div>
 				</div>
 				<div className='basis-1/3 flex-1'>
-					<h2 className='text-lg text-center text-teal-600 font-bold dark:text-teal-400 py-1 mb-2'>
+					<a href='https://www.gunisms.com.au/' target="_blank" rel="noopener noreferrer" className='text-lg text-center text-teal-600 font-semibold dark:text-teal-400 py-1 mb-2 block underline'>
 						GuniSMS
-					</h2>
+					</a>
 					<Image
 						className='rounded-lg'
 						width={'100%'}
-						height={'64%'}
+						height={'63%'}
 						layout='responsive'
 						alt='gunisms screenshot'
 						src={guniproject}
 					/>
 				</div>
 				<div className='basis-1/3 flex-1'>
-					<h2 className='text-lg text-center text-teal-600 font-bold dark:text-teal-400 py-1 mb-2'>
+					<a href='https://www.mtas.io/' target="_blank" rel="noopener noreferrer" className='text-lg text-center text-teal-600 font-semibold dark:text-teal-400 py-1 mb-2 block underline'>
 						MTAS
-					</h2>
+					</a>
 					<Image
 						className='rounded-lg'
 						width={'100%'}
-						height={'64%'}
+						height={'63%'}
 						layout='responsive'
 						alt='mtas automation screenshot'
 						src={mtasproject}
 					/>
 				</div>
 				<div className='basis-1/3 flex-1'>
-					<h2 className='text-lg text-center text-teal-600 font-bold dark:text-teal-400 py-1 mb-2'>
+					<a href='#' target="_blank" rel="noopener noreferrer" className='text-lg text-center text-teal-600 font-semibold dark:text-teal-400 py-1 mb-2 block underline'>
 						Netflix Clone
-					</h2>
+					</a>
 					<Image
 						className='rounded-lg'
 						width={'100%'}
-						height={'64%'}
+						height={'63%'}
 						layout='responsive'
 						alt='netflix clone screenshot'
 						src={netflixproject}
