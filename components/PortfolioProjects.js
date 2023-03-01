@@ -12,8 +12,8 @@ const PortfolioProjects = () => {
 					Projects 🧑‍💻
 				</h2>
 				<p className='text-lg py-2 leading-8 text-gray-800 dark:text-gray-200'>
-					In my time as a web developer, I&apos;ve had the opportunity to work on a diverse range of web
-					applications which includes developing dynamic
+					In my time as a web developer, I&apos;ve had the opportunity to work on a diverse range of
+					web applications which includes developing dynamic
 					<span className='text-teal-500'> banking</span> applications, efficient
 					<span className='text-teal-500'> SaaS-based</span> web apps, engaging
 					<span className='text-teal-500'> e-commerce</span> sites, and more. But what really drives
@@ -23,16 +23,24 @@ const PortfolioProjects = () => {
 			</div>
 			<div className='flex flex-col gap-8 py-8 lg:flex-row lg:flex-wrap'>
 				<div className='basis-1/3 flex-1'>
-					<Image
-						className='rounded-lg'
-						width={'100%'}
-						height={'64%'}
-						layout='responsive'
-						alt='finacle payment engine screenshot'
-						src={fpeproect}
-					/>
+					<div>
+						<h2 className='text-lg text-center text-teal-600 font-bold dark:text-teal-400 py-1 mb-2'>
+							Finacle Payment Suite
+						</h2>
+						<Image
+							className='rounded-lg'
+							width={'100%'}
+							height={'64%'}
+							layout='responsive'
+							alt='finacle payment engine screenshot'
+							src={fpeproect}
+						/>
+					</div>
 				</div>
 				<div className='basis-1/3 flex-1'>
+					<h2 className='text-lg text-center text-teal-600 font-bold dark:text-teal-400 py-1 mb-2'>
+						GuniSMS
+					</h2>
 					<Image
 						className='rounded-lg'
 						width={'100%'}
@@ -43,6 +51,9 @@ const PortfolioProjects = () => {
 					/>
 				</div>
 				<div className='basis-1/3 flex-1'>
+					<h2 className='text-lg text-center text-teal-600 font-bold dark:text-teal-400 py-1 mb-2'>
+						MTAS
+					</h2>
 					<Image
 						className='rounded-lg'
 						width={'100%'}
@@ -53,6 +64,9 @@ const PortfolioProjects = () => {
 					/>
 				</div>
 				<div className='basis-1/3 flex-1'>
+					<h2 className='text-lg text-center text-teal-600 font-bold dark:text-teal-400 py-1 mb-2'>
+						Netflix Clone
+					</h2>
 					<Image
 						className='rounded-lg'
 						width={'100%'}
@@ -62,24 +76,6 @@ const PortfolioProjects = () => {
 						src={netflixproject}
 					/>
 				</div>
-				{/* <div className='basis-1/3 flex-1'>
-					<Image
-						className='rounded-lg object-cover'
-						width={'100%'}
-						height={'100%'}
-						layout='responsive'
-						src={netflixproject}
-					/>
-				</div>
-				<div className='basis-1/3 flex-1'>
-					<Image
-						className='rounded-lg object-cover'
-						width={'100%'}
-						height={'100%'}
-						layout='responsive'
-						src={web6}
-					/>
-				</div> */}
 			</div>
 		</section>
 	);
